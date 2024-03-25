@@ -16,5 +16,4 @@ makepkg -si
 cd ..
 sudo pacman -U easytether.tar.xz
 sudo easytether-usb
-sudo sudo dhcpcd tap-easytether
 systemctl start dhcpcd@tap\\x2deasytether
